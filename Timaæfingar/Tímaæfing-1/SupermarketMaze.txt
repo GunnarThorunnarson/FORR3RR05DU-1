@@ -1,0 +1,15 @@
+1. Finding the quickest route through a supermarket
+while in supermarket
+	walk through aisle
+	was the product in the aisle
+		if yes
+			go get product
+			and leave supermarket
+		else
+			go to next aisle
+	
+
+2. Generate Fibonacci numbers
+
+while true
+	add old number to current number to get new number
