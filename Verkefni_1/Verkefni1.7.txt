@@ -1,0 +1,11 @@
+a) Alan Turing var breskur Stærðfræðingur, cryptographer og frumkvöðull í tölvunarfræði. Og Turing vél er ímynduð vél sem Turing ímyndaði sér. 
+   þrátt fyrir hversu einföld vélin er þá getur hún simulateað hvaða algorithm sem er. Það sem turing vélin gerir er að það byrjar með ákveðinn
+   streng af 1 og 0 og fylgir svo ákveðnum reglum til að breyta strengnum í annan streng af 1 og 0 og á endanum mun vélin og það sem er eftir af
+   strengnum er svarið codað upp sem 1 og 0. 
+
+b) vélrænt nám eða machine learning er þegar tölvan eða forrit lærir nokkurn veginn á sjálfkrafa eins og til dæmis ef chat botti veit ekki svar
+   við eitthverri spurningu byður hún notendann um svarið og save-ar það hjá sér svo hún geti notað það seinna. Machine learning er leið fyrir 
+   vélar til að læra og adapta til alskonar hluti i gegnum reynslu. 	
+
+c) hermun er til dæmis nothæf til að sjá hvernig boltar skoppa, með því að setja upp umhverfi sem reiknar feril boltans með því að nota þær alheims
+   reglur sem við vitum nú þegar eins og að þyngdaraflið á jörðinni er að meðaltali 9.81, og að velocity = distance/time. 

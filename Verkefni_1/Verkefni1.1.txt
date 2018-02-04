@@ -11,5 +11,8 @@ while in supermarket
 
 2. Generate Fibonacci numbers
 
-while true
-	add old number to current number to get new number
+	1. start with a pair of numbers
+	2. add those two numbers together to get a new number
+	3. the new number is now the current 
+	4. add the old number to the current number to get a new number
+	5. repeat 3 and 4

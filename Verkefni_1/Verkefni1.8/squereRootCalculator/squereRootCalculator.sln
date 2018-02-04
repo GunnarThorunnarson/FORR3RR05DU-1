@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "squereRootCalculator", "squereRootCalculator\squereRootCalculator.vcxproj", "{049C8195-1F5B-43B5-8CD9-72811C1422DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Debug|x64.ActiveCfg = Debug|x64
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Debug|x64.Build.0 = Debug|x64
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Debug|x86.Build.0 = Debug|Win32
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Release|x64.ActiveCfg = Release|x64
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Release|x64.Build.0 = Release|x64
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Release|x86.ActiveCfg = Release|Win32
+		{049C8195-1F5B-43B5-8CD9-72811C1422DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20C4E913-D5CE-4455-BDB8-803CD8C73D5E}
+	EndGlobalSection
+EndGlobal

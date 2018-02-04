@@ -1,0 +1,30 @@
+       
+       ___Bitmask___________size in bytes__________score
+       |0xFFFFFFFF   |    142845(original size)   |  10|
+       |-----------------------------------------------|
+       |0xFF000000   |    1389                    |  1 |
+       |-----------------------------------------------|
+       |0xFFAAAAAA   |    113136		  |  2 |
+       |-----------------------------------------------|
+       |0xFFCCCCCC   |    92909                   |  7 |
+       |-----------------------------------------------|
+       |0xFFEEEEEE   |    124544                  |  8 |
+       |-----------------------------------------------|
+       |0xFFA0A0A0   |    50943			  |  3 |
+       |-----------------------------------------------|
+       |0xFFC0C0C0   |    35514  		  |  7 |
+       |-----------------------------------------------|
+       |0xFFF0F0F0   |    65647                   |  6 |   
+       |-----------------------------------------------|
+
+
+Mín ályktun:
+  	Því lærra sem bitmasskið verður því færri litamöguleikar eru. Eins og Ef þú ert með bitmaskið 0xFFFFFF00 þá dettur allur rauður
+	litur úr myndinni og myndinn minnkar að sjálfsögðu smá í stærð, sama gerist með grænan(0xFFFF00FF) og Bláan(0xFF00FFFF). Þannig 
+	að besta leiðin væri að reyna að minnka bitmaskið eins mikið og þú getur án þess að gæðin á myndinni verði of slæm, og qualityið
+	á myndinni fer algjörlega eftir því hvaða litur eru notaðir í myndinni, þess vegna er ekki til eitt fullkomið bitmask sem virkar
+	fullkomlega á allar myndir heldur þarf bitmaskið að breytast eftir því hvernig myndin er. 
+	
+	Bitmaskið 0xFFC0C0C0 virkar vel á upprunnalegu myndina í vekrefninu og er það vegna þess að það fórnar ekki fáranlega mikklu 
+	qualityi og hún fær mjög littla stærð á myndinni. 
+	

@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  squereRootCalculator.cpp
+c:\users\mikki\documents\skoli\forr3rr05du\verkefni_1\verkefni1.8\squererootcalculator\squererootcalculator\squererootcalculator.cpp(27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\mikki\documents\skoli\forr3rr05du\verkefni_1\verkefni1.8\squererootcalculator\squererootcalculator\squererootcalculator.cpp(24): warning C4715: 'calculus': not all control paths return a value
+  squereRootCalculator.vcxproj -> C:\Users\Mikki\Documents\Skoli\FORR3RR05DU\Verkefni_1\Verkefni1.8\squereRootCalculator\x64\Debug\squereRootCalculator.exe

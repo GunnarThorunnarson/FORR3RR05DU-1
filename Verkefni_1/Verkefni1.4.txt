@@ -1,0 +1,21 @@
+a) Kláraðu Classification æfingun
+	Sambandið á milli Decision Tree og log2 er að þú getur reiknað út með log2 hversu margar greinar þú þarft að 
+	fara upp til að komast á toppinn,þú reiknar það með því að taka heildar möguleika og lætur það inn í log2 aðferðina. 
+	
+	Til Dæmis:
+		Segjum að þú ert að leita af einu ákveðnu epli, og segjum að þetta epli er í haug af 8.192 öðrum ávöxtum og
+		að við getum minnkað hauginn um helming í hvert skiptið sem við smellum fingrunum okkar. Hversu oft þyrftum við
+		að smella fingrunum okkar?
+		
+		log2(8.192) = 13 ==> Þannig að við þyrftum að smella fingrunum okkar 13 sinnum til að fynna eplið.
+
+b) Útskýrðu hvernig morse kóðinn virkar og er samsettur m.a. útfrá “Decision tree”
+	Hver einasti stafur í morse kóða er saman settur af "dot" og eða "dash" þar sem "dot" stendur fyrir stutt og "dash" stendur fyrir langt.
+	Til að gera þetta á sem skymsamlegasta hátt var sett upp "Decision tree" um hvernig þú stafar stafi í morse kóða, þar sem þú hefur aðeins
+	tvo möguleika dot og dash hjálpar það að geta blandað þeim saman til að stafa út einn staf, þar sem mest notuðu stafirnir væru stafaðir 
+	með eins fáum dots eða dashes og svo er það raðað niður um hversu algengir stafirnir eru, eins og E sem að er örugglega algengasti
+	stafurinn í enska tungumálinu er aðeins einn dot, hinsvegar er Q sem að er ekki svakalega algengur = dash dash dot dash. 
+	Með þessu móti var búið til tré þar sem E og T eru efst í trénu, fyrir neðan þá koma svo I, A, N og M og koma þeir eiginlega út frá E og
+	T þar sem þú þarft fyrst að gera annaðhvort dash eða dot til að geta stafað I, A, N eða M. Á eftir I, A, N og M kemur síðan þriðji liður	
+	trésins sem er S, U, R, W, D, K, G, O. Og síðasti liður trésins er síðan H, V, F, L, P, J, B, X, C, Y, Z, og Q. 
+

@@ -1,0 +1,24 @@
+Þróaðu reiknirit sem býr til marghyrning af hvaða lögun sem er (mismargar hliðar)
+
+	Sauðakóði: 
+	    1. taka inn fjölda horna
+	    2. margfalda 180 með (fjölda horna - 2)
+	    3. deila heildar gráðunum með fjölda horna
+	    4. þá ertu kominn með n gráðurnar sem hvert horn er með
+	    5. teikna línu
+	    6. snúa með (180 - n) gráðum
+	    7. endurtaka 5 og 6 með fjölda horna. 
+
+
+	Kóðalausn: 
+	Veit ekki alveg hvað þú varst að byðja um þannig ég breytti sauðakóðanum mínum í  python function.
+
+	    def drawPolygon(angels)
+	    	degrees = 180 * (angels -2)
+	  	n = degrees/angels
+		for x in range(angels)
+		    fd 100
+		    rt (180 - n)
+		
+
+

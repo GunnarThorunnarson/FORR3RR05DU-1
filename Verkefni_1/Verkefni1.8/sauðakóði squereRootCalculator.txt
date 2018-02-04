@@ -1,0 +1,4 @@
+1. Taka inn tölu
+2. Reikna hversu löng talan er
+3. Reikna X0 þar sem X0 = lengdTölu * 10^2
+4. Reikna Xn þar til Xn = Xn-1 með jöfnunni    Xn = 1/2 * (Xn-1 + S/Xn-1)

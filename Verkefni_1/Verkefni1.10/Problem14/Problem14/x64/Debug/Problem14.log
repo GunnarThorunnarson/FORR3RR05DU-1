@@ -1,0 +1,4 @@
+﻿  Problem14.cpp
+c:\users\mikki\documents\skoli\forr3rr05du\verkefni_1\verkefni1.10\problem14\problem14\problem14.cpp(46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mikki\documents\skoli\forr3rr05du\verkefni_1\verkefni1.10\problem14\problem14\problem14.cpp(30): warning C4715: 'CollatzSequence': not all control paths return a value
+  Problem14.vcxproj -> C:\Users\Mikki\Documents\Skoli\FORR3RR05DU\Verkefni_1\Verkefni1.10\Problem14\x64\Debug\Problem14.exe

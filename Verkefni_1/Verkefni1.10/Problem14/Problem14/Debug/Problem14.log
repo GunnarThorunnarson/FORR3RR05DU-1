@@ -1,0 +1,3 @@
+﻿  Problem14.cpp
+c:\users\mikki\documents\skoli\forr3rr05du\verkefni_1\verkefni1.10\problem14\problem14\problem14.cpp(29): warning C4715: 'CollatzSequence': not all control paths return a value
+LINK : fatal error LNK1168: cannot open C:\Users\Mikki\Documents\Skoli\FORR3RR05DU\Verkefni_1\Verkefni1.10\Problem14\Debug\Problem14.exe for writing

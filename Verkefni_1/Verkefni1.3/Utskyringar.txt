@@ -1,0 +1,21 @@
+Stable 		--> mynstur sem að breytist ekkert, Það eru mörg mynstur sem að deyja aldrei til dæmis er eitt þannig mynstur
+		    ferhyrningur sem er búinn til úr fjórum einingum. Hann deyr aldrei þar sem allir kassarnir eru með 3 nágranna
+		    og það lifnar enginn annar við þar sem allir dauðu nágrannarnir eru einungis með 2 eða 1 lifandi nágranna. 
+
+Oscillators 	--> mynstur sem að breytist en endar alltaf á því að verða eins og fer eiginlega í hringrás. Eina mynstrið sem ég
+		    fann sem er Oscillator er annaðhvort lárétt eða lóðrétt lína búin til af 3 einingum. Það skiptir ekki máli
+		    máli hvort hún sé lárétt eða lóðrétt þar sem línan er alltaf að skiptast á milli láréttri línu og lóðréttrar línu.
+		    Þetta gerist vegna þess að einingin í miðjunni er alltaf með 2 nágranna lifandi þannig hann deyr aldrei og 
+		    og þeir nágrannar sem eru dauðir og eru annaðhvort á lóðrétt eða lárétt við miðju einingannar er alltaf með 3
+		    nágranna þannig að þeir lifna við en hinir sem voru lifandi deyja þar sem þeir eru einungis með einn nágranna.
+
+Flyers 		--> mynstur sem halda sér nokkurnveginn eins en hreyfa sig um á skjánum. Flyers mynstrið sem ég fann er L sem að 
+		    langa hliðin er með 3 einingar og littla hliðin 2, síðan er ein stök eining ská fyrir ofan littlu hliðina. 
+		    Þetta mynstur skiptist á milli tveggja mynstra annarsvegar L-inu með einu littla stakinu og hinsvegar mynstri
+		    sem er eins og lítið z með top hatt. Og það hreyfist um af því þessi tvö mynstur snúa ekki alltaf þannig að 
+		    mynstrið hreyfist um skjáinn. 
+
+
+
+Mitt eigið	--> Ég bjó til mynstur sem að er stórt M og úr því koma nokkrar skemmtilegar myndir eins og 8-bit hauskúpa úr gömlum leikjum
+		    og geimskip úr 8-bita leikjum og allskonar annað. Mynstrið endar samt að lokum. 
