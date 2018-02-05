@@ -1,0 +1,54 @@
+a) Finding the Shortest Path. (Sjá nánari neðar verkefnalýsingu)
+Leystu og svaraðu spurningum sem koma fyrir í verkefninu á sem bestan hátt.
+Q1, Q2, Q3: Notuðum algorithma sem er á myndinni algorithm.png til að finna leiðina
+Q4 og Q5: Á myndum af blaðinu
+Activity 2: Á myndinni page 3
+
+
+b) Fylgið leiðbeiningum og svarið spurningunum eins vel og þið getið sem eru að finna í eftirfarandi verkefni https://computationalthinkingcourse.withgoogle.com/unit?unit=2&lesson=3
+1. Does it matter which city you start from?
+Já það skiptir máli hvaða borð þú byrjar frá vegna þess að ef þú byrjar í borg sem er t.d. með eina borg 20km í burtu til vinstri og svo 30km í burtu til hægri þarftu fyrst að fara í
+borgina 20km í burtu og svo alla leiðina í borgina sem er nú 50km í burtu. Meðað við hvar þú byrjar munti vara betri leiðir sem taka minni langar vegalengdir sem gætu verið sleppt
+
+2. Would the strategy you used to develop your route (longitudinal, latitudinal, etc) apply to any country or does it depend? Try switching to another country 
+and see if it works as well there.
+Í mælingunum sem ég er með niðri sínir það að á flest öllum stöðum er það betra að leira eftir latitude veg en það breytir á milli hvar þú ert að keyra, í Ameríku er betra að keyra eftir
+longitude í stað latitude þannig að það er ekki sjálfvirkt að þú ættir að keyra eftir latitude veg á öllum stöðum alltaf.
+
+Mælingar
+
+EU latitude: 27851975meters
+EU longitude:29589857meters
+
+India Latitude: 26900349meters
+India longitude 30540579meters
+
+Philippines Latitude: 4151775meters
+Philippines Longitude:7501550meters
+
+South Africa Latitude: 4004540meters
+South Africa Longitude:4940976meters
+
+USA Latitude: 73359819meters
+USA Longitude:28557554meters
+
+3. What are some of the reasons this problem is difficult?
+Að finna algorithma sem finnur fljótustu leið til að fara í allar borgir í landi er erfitt vegna þess að það mun þurfa að virka á öll lönd í heiminum en það eru svo mörg lönd og það er
+mjög öðruvísi hvernig borgirnar eru í löndunum. Eins og til dæmis á Íslandi eru engar borgir í miðju landinu þannig það yrði erfitt að nota sama algorithma til að finna leið um á Íslandi
+og í löndum eins og Ameríka þar sem það er fullt af borgum all staðar á kortinu.
+
+
+
+
+c) Skoðið vel ,,traveling salesman problem" á wikipedia(https://en.wikipedia.org/wiki/Travelling_salesman_problem) 
+Ræðið og útskýrið vandann. Skilið mér ítarlegri greinagerð um Traveling salesman problem sem og hvernig hann birtist í mismunandi aðstæðum.
+Afhverju er svona erfitt að leysa þetta vandamál? (200 orð)
+
+Vandamálið liggur í því að það sé gefið einhverjum lista af borgum sem hann þarf að fara í og hversu langt er á milli allar þessar borgir og vandamálið liggur í því að finna styðstu leið
+til að fara í allar þessar borgir og enda aftur upp í borginni sem þú byrjar í. Lættasta leiðin til að reyna að leysa þetta yrði bara að prófa alla valmöguleika fyrir hverja einustu borg
+en vandamálið kemur í það að að eru mjög mikið af valmöguleikum sem koma upp þá, að fara á milli 10 borgir gefur þér meira en 180 þúsund valmöguleikum til að reyna að fara á milli
+þannig þegar það eru fleiri fjöldi af borgum til að fara á milli verður alltaf erfiðara og erfiðara að fara í gegnum allar lausninar til að finna hvað verður styðsta leiðin til að gera þetta.
+Hugsunin af þessu vandamáli nýtist líka í öðrum hlutum, eins og í til dæmis þegar það er verið að framleiða fullt af straumrásum(e. circuit boards) og bora í gegnum það er gott að nota
+þetta til að finna fljótustu leiðirnar í gengum alla staðina þar sem þarf að bora.
+Þetta vandamál er talið vera á NP-hard erfiðleika stigi sem þýðir að ef þú brýtur þetta vandamál í minni bita þannig að það sé léttar að leysa það verða þessir litlu bita að minnsta kosti
+jafn erfiðir og upprunulega vandamálið.
