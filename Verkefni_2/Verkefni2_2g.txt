@@ -1,0 +1,13 @@
+g) Útskýrðu ítarlega (fjölda aðgera, tíma osfrv.) hvernig Quick Union er frábrugðið Quick Find og
+að hvaða leiti reikniritin eru hægvirk. Útskýrðu með hvaða hætti Quick-Union getur orðið
+hraðvirkt reiknirit með nánari útfærslum á því (Weighted Quick-Union og Weighted QuickUnion + path compression).
+
+Quick Union og Quick Find eru frekar svipuð fyrir utan að í Quick Find er alltaf keyrt í gegnum allt fylkið og breytt gildunum þegar það er Union-að en í Quick Union er bara breytt rótunum.
+Quick Union er hraðara en Quick Find þegar það kemur að Union aðgerðinni vegna þess að það þarf ekki að keyra for-loopu í gegnum allt tréð til að finna breyta gildinum
+og það breytir bara rótinni sinni yfir í rótina af hlutinum sem það tengist. Quick Find er með hraðara connected kall vegna þess að það mun bara þurfa að kíkja ef tölurnar eru sömu en í
+Quick Union þarf það að kíkja hvað root-ið er og þarf kannski að klifra upp tré til að sjá hvað root-ið er efst uppi.
+
+Weighted Quick Union er mjög líkt Quick Union fyrir utan að núna er gert check til að sjá hvor trén sem eru að blanda saman er stærri en hitt þannig trén verða ekki mjög löng og halda sér
+frekar flötum þannig að nú verða ekki svona löng tré sem lætur algorithman hægan að keyra. Weighted Quick Union með Path Compression er nákvæmlega sama og Weighted Quick Union fyrir utan
+að það er bætt við línu af kóða sem lætur það að verkjum að þegar þú bætir við hlutum í tréð tengist það við rótina af hlutinum sem það er að tengjast í en ekki hlutinn sjálfan.
+Þetta heldur trénu mjög flötu og það verður hraðvirkara en bara Weighted Quick Union

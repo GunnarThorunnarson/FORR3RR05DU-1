@@ -1,0 +1,62 @@
+Útskýrðu með athugasemdum, greiningum og mælingum hvernig Naive og Russian föllin virka.
+Hvers vegna er Russian hraðvirkara?
+
+hvernig Naive virkar:
+   þú tekur inn 2 tölur, a og b. Þú bætir b við z og minnkar a um 1 og repeatar þetta síðan þar til x er orðinn 0 og skilar svo z.
+   hvernig þetta virkar er að ab = xy + z. Þar sem x = a og y = b og z er summan.
+   Dæmi þar sem a = 2 og b = 6:
+   
+   1. 2 * 6 = 2 * 6 + 0
+   1. z += 6
+   1. x -= 1
+   2. 2 * 6 = 1 * 6 + 6
+   2. z += 6
+   2. x -= 1
+   3. 2 * 6 = 0 * 6 + 12
+   stoppa hér þar sem x er orðið 0
+   
+   
+Hvernig Russian virkar: 
+   þú tekur aftur inn 2 tölur, a og b. aftur er notað ab = xy + z. Þar sem z verður loka svarið. En í staðinn fyrir að bæta við z í hvert skipti
+   þá er einungis bætt við z þegar x er oddatala (x % 2 == 1). og í staðinn fyrir að lækka x alltaf um 1 þá er frekar fjarlægt eitt stak af
+   binary tölunni eins og 4 sem er 0100 í binary yrði að 010 sem er 2. og 17 í binary sem er 10001 myndi breytast í 1000 sem er 8. og til að 
+   bæta upp fyrir hvert skiptið sem x er slétt tala þá hækkar y um eitt binary stak. þannig að 8 sem er 1000 í binary yrði að 10000 sem er 16. 
+   Dæmi þar sem a = 2 og b = 6:
+   1. 2 * 6 = 2 * 6 + 0
+   1. 6 << 1
+   1. 2 >> 1
+   2. 2 * 6 = 1 * 12 + 0
+   2. z += 12
+   2. 12 >> 1
+   2. 1 >> 1
+   núna er x orðið 0 þannig að þetta hættir og skilar z = 12
+  
+
+Hvers vegna er Russian Peasant hraðvirkara?
+   Russian Peasant er hraðvirkara vegna þessa að það þarf ekki að keyra jafn oft og naive þar sem hann skippar yfir slatta af x gildum. 
+
+
+Dæmi með naive og Russian þar sem a = 10 og b = 20
+   Naive: 
+      1. 10 * 20 = 10 * 20 + 0
+      2. 10 * 20 = 9  * 20 + 20
+      3. 10 * 20 = 8  * 20 + 40
+      4. 10 * 20 = 7  * 20 + 60
+      5. 10 * 20 = 6  * 20 + 80
+      6. 10 * 20 = 5  * 20 + 100
+      7. 10 * 20 = 4  * 20 + 120 
+      8. 10 * 20 = 3  * 20 + 140
+      9. 10 * 20 = 2  * 20 + 160
+     10. 10 * 20 = 1  * 20 + 180
+     11. 1ö * 20 = 0  * 20 + 200
+
+   Russian Peasant: 
+      1. 10 * 20 = 10 * 20  + 0
+      2. 10 * 20 = 5 * 40   + 0
+      3. 10 * 20 = 2 * 80   + 40
+      4. 10 * 20 = 1 * 160  + 40
+      5. 10 * 20 = 0 * 320  + 200
+
+eins og sést hér þurfti að keyra Russian Peasant 5 sinnum en Naive þurfti að keyra 11 sinnum. 
+   
+    

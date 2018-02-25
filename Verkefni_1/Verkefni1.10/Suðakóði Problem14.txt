@@ -1,0 +1,5 @@
+1. Taka inn tölu
+2. ef talan er jöfn deila með 2 
+3. ef talan er oddatala margfalda með 3 og bæta við einum
+4. bæta við teljarann þangað til að talan er komin niður í 1
+5. ef teljarinn er stærstur er talan safeuð og teljarinn
