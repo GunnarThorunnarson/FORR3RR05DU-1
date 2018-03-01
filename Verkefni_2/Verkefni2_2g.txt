@@ -1,13 +1,12 @@
-g) Útskırğu ítarlega (fjölda ağgera, tíma osfrv.) hvernig Quick Union er frábrugğiğ Quick Find og
-ağ hvağa leiti reikniritin eru hægvirk. Útskırğu meğ hvağa hætti Quick-Union getur orğiğ
-hrağvirkt reiknirit meğ nánari útfærslum á şví (Weighted Quick-Union og Weighted QuickUnion + path compression).
+g) ÃštskÃ½rÃ°u Ã­tarlega (fjÃ¶lda aÃ°gera, tÃ­ma osfrv.) hvernig Quick Union er frÃ¡brugÃ°iÃ° Quick Find og
+aÃ° hvaÃ°a leiti reikniritin eru hÃ¦gvirk. ÃštskÃ½rÃ°u meÃ° hvaÃ°a hÃ¦tti Quick-Union getur orÃ°iÃ°
+hraÃ°virkt reiknirit meÃ° nÃ¡nari ÃºtfÃ¦rslum Ã¡ Ã¾vÃ­ (Weighted Quick-Union og Weighted QuickUnion + path compression).
 
-Quick Union og Quick Find eru frekar svipuğ fyrir utan ağ í Quick Find er alltaf keyrt í gegnum allt fylkiğ og breytt gildunum şegar şağ er Union-ağ en í Quick Union er bara breytt rótunum.
-Quick Union er hrağara en Quick Find şegar şağ kemur ağ Union ağgerğinni vegna şess ağ şağ şarf ekki ağ keyra for-loopu í gegnum allt tréğ til ağ finna breyta gildinum
-og şağ breytir bara rótinni sinni yfir í rótina af hlutinum sem şağ tengist. Quick Find er meğ hrağara connected kall vegna şess ağ şağ mun bara şurfa ağ kíkja ef tölurnar eru sömu en í
-Quick Union şarf şağ ağ kíkja hvağ root-iğ er og şarf kannski ağ klifra upp tré til ağ sjá hvağ root-iğ er efst uppi.
+Helsti munurinn Ã¡ Quick Union og Quick Find er aÃ° Quick Find keyrir Ã­ gegnum allan listann og breytir gildunum en Ã­ quick Union er aÃ°eins breytt rÃ³tunum.
+Quick Union er harÃ°virkara en Quick Find viÃ° aÃ° finna Union AÃ°gerÃ°ina vegna Ã¾essa aÃ° Ã¾aÃ° Ã¾arf ekki aÃ° keyra Ã­ gegnum allt trÃ©Ã° til aÃ° breyta gildunum og spara sÃ©r Ã¾annig slatta af tÃ­ma. Semsagt Quick Union breytir einugnis rÃ³tinni sinni yfir Ã­ rÃ³tina af tengda hlutinum. Quick Find hefur hraÃ°skreiÃ°ara connected kall vegna Ã¾ess aÃ° Ã¾aÃ° Ã¾arf bara aÃ° kÃ­kja ef tÃ¶lurnar eru eins Ã­ listanum. 
+Quick Union Ã¾arf hins vegar aÃ° athuga hvaÃ°a root hjÃ¡ tÃ¶lunni er og Ã¾arf kannski aÃ° keyra upp trÃ©Ã° til aÃ° sjÃ¡ hvaÃ°a root er efst uppi.
 
-Weighted Quick Union er mjög líkt Quick Union fyrir utan ağ núna er gert check til ağ sjá hvor trén sem eru ağ blanda saman er stærri en hitt şannig trén verğa ekki mjög löng og halda sér
-frekar flötum şannig ağ nú verğa ekki svona löng tré sem lætur algorithman hægan ağ keyra. Weighted Quick Union meğ Path Compression er nákvæmlega sama og Weighted Quick Union fyrir utan
-ağ şağ er bætt viğ línu af kóğa sem lætur şağ ağ verkjum ağ şegar şú bætir viğ hlutum í tréğ tengist şağ viğ rótina af hlutinum sem şağ er ağ tengjast í en ekki hlutinn sjálfan.
-Şetta heldur trénu mjög flötu og şağ verğur hrağvirkara en bara Weighted Quick Union
+Weighted Quick Union er mjÃ¶g lÃ­kt Quick Union fyrir utan Ã¾aÃ° aÃ° sett er upp check til aÃ° minna trÃ©Ã° verÃ°ur sett undir stÃ¦rra til aÃ° 
+ekki verÃ°i til eitthvaÃ° svakalega stÃ³rt trÃ© sem hÃ¦gja Ã¡ keyrslunni.
+Weighted Quick Union meÃ° Path Compression er nÃ¡kvÃ¦mlega sama og Weighted Quick Union fyrir utan
+aÃ° Ã¾aÃ° er bÃ¦tt viÃ° lÃ­nu af kÃ³Ã°a Ã¾annig Ã­ staÃ°inn fyrir aÃ° tengja trÃ©Ã° viÃ° tÃ¶luna sem Ã¾aÃ° var aÃ° tengjast viÃ°, tengir Ã¾aÃ° viÃ° rÃ³tina af tÃ¶lunni sem Ã¾aÃ° er aÃ° tengjast viÃ°, Ã¾aÃ° gerir trÃ©Ã° mjÃ¶g flatt. 
