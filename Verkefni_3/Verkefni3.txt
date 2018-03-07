@@ -1,0 +1,28 @@
+﻿1.Komdu með fall/kóðsýnidæmi fyrir hvern flokk í Big(O).
+  a) O(n)
+  b) O(n log(n) )
+  c) O(n2)
+  d) O(2n)
+
+
+2.Tímamæling og tímaflækja.
+Notaðu fibonacci föll (ítraða og endurkvæma útgáfu) og taktu tímamælingu á þeim með eftirfarandi
+inntök: 1, 10, 20, 30, 40, og 50. Hversu langan tíma tók að keyra föllin með þessi mismunandi
+inntök? Hvaða tímaflækjur (Big O) eru á þessum tveimur föllum (fibonacci ítrað, fibonacci
+endurkvæm)?
+
+
+3.Útskýrðu þýðingu P = NP og P ≠ NP. Hvað stendur P og NP fyrir? komdu með dæmi um NP vandamál.
+    P: stendur fyrir Polynomial time, eða þau dæmi sem hægt er að leysa á stuttum tíma.
+    NP: stendur fyrir Non-deterministic Polynomial time, eða dæmi sem hægt er að athuga hvort lausnin
+	sem þú ert með er rétt.
+    P = NP: Þýðir að öll dæmin sem eru P vandamál eru í rauninni NP vandamál sem við erum ekki búin að
+	finna lausn á hvernig við leysum það á Polynomial tíma. Þannig ef þetta er satt munu öll dæmi í NP menginu
+ 	falla undir P mengið í endann. 
+    P ≠ NP: Þýðir að það séu tvö ótengd mengi, eða NP og P eru ekki tengd þannig að það eru dæmi sem við höldum að
+	séu í NP sem gætu verið í P en ekki öll dæmi. Þannig að sama hversu mikið við reynum þá mun alltaf vera
+	dæmi sem ekki er hægt að leysa á Polynomial time. 
+    Dæmi um NP vandamál:
+	Dæmi um NP er til dæmis Protein folding -> https://en.wikipedia.org/wiki/Protein_folding
+
+	
